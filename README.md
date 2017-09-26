@@ -53,4 +53,9 @@ Q1 mapping data taken in June 2015.
    * Loops over the Q1 field measurements done at z=0 and 4 different currents.
    * Call Plot_zo_data to determine Q1_central_field_data for each current
    * Call plot_q1_bi
+
+8. run_plot_q1_zscan(TString fname)
+   * call Set_probe
+   * reads data to fill vectors with zpos_num and zpos_val
+   * call Plot_q1_zscan(fname) which reads in data , corrects field for probe non-linearity and makes plot.
  
